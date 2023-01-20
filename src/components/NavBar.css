@@ -1,0 +1,44 @@
+.NavBar {
+    align-items: center;
+    /* box-shadow: 0px 10px 30px -10px #19191a; */
+    background-color: var(--tertiary-color);
+    display: flex;
+    height: 96px;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.LogoContainer {
+    display: flex;
+    flex: 1;
+    height: 100%;
+    order: 0;
+    justify-content: flex-start;
+}
+
+.NavigationListContainer {
+    display: flex;
+    flex: 3;
+    height: 100%;
+    order: 2;
+    justify-content: flex-end;
+}
+
+.Logo {
+    align-items: center;
+    display: flex;
+}
+
+.NavBarName {
+    display: flex;
+    flex: 2;
+    font-size: 40px;
+    font-family: 'NotoSerifJP', 'Trebuchet MS', sans-serif;
+    color: var(--secondary-color);
+    padding: 25px;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }

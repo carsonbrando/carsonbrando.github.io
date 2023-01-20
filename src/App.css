@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: var(--primary-color);
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -21,7 +23,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: var(--tertiary-color);
 }
 
 .App-link {
@@ -35,4 +37,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@font-face {
+  font-family: 'NotoSerifJP';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./media/fonts/NotoSerifJP-Regular.otf');
+}
+
+:root {
+  --primary-color: #BCD382;
+
+  --secondary-color: #0F261F;
+
+  --tertiary-color: #ffffff;
+
+  --border-color: #7f8fa6;
+  --shadow-color: #131F3F;
 }
