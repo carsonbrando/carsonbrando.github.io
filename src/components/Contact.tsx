@@ -9,7 +9,7 @@ const Contact = () => {
                 </p>
                 <p>
                     You can DM me on any of the social media accounts listed in the footer, or email me directly at 
-                    <a href="mailto:carson.brando@yahoo.com"> carson.brando@yahoo.com</a>.
+                    <a className="emailLink" href="mailto:carson.brando@yahoo.com"> carson.brando@yahoo.com</a>.
                 </p>
                 <p>
                     I look forward to hearing from you.

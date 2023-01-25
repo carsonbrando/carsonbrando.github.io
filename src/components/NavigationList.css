@@ -15,5 +15,5 @@
 }
   
 .NavigationItem a:active, a:hover {
-    color: var(--primary-color);
+    color: var(--tertiary-color);
 }

@@ -7,21 +7,18 @@ const About = () => {
                 <img className="AboutImage" src={require(`../media/images/self.JPG`)} />
             </div>
             <div className="Bio">
+                <h1>
+                    My name is Carson.
+                </h1>
                 <p>
-                    My name is Carson. 
-                    I am a self-taught photographer based in Colorado with a passion for capturing the world. 
-                    I use both film and digital cameras, with a particular focus on street photography. 
-                    However, I am always striving to improve as a portrait and landscape photographer.
+                    I've always been a person who feels very deeply. I find beauty in that depth, regardless of the emotion. Elation, lonliness, surprise, frustration, pride, apathy, everything.
+                    To me they all have a place, and they all deserve to be captured.
                 </p>
                 <p>
-                    I purchased my first camera in early 2020, and have been captivated ever since. 
-                    Since then I have never stopped learning, practicing, and shooting.
+                    I strive to make images that distill those emotions to their essence. A fraction of a second that can immortalize such fleeting things.
                 </p>
                 <p>
-                    I invite you to browse my portfolio and discover the perspective I bring to my photographs.
-                    Thank you for visiting. 
-                    I hope you enjoy my work. 
-                    I am always open to discussing art with interesting people, so don't hesitate to reach out.
+                    Reach out to me if my images speak to you. Currently I operate out of Denver, though much of my work was shot during my time in the Bay Area, or while living in Oahu.
                 </p>
             </div>
         </div>

@@ -1,6 +1,6 @@
 .Footer {
     display: flex;
-    background-color: antiquewhite;
+    background-color: var(--secondary-color);
     /* box-shadow: 0 50vh 0 50vh antiquewhite; */
     margin-top: 40px;
     padding: 20px 0px;

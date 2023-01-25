@@ -33,7 +33,7 @@ function Gallery() {
                         width="300"
                         key={ index }
                         style={{ margin: '2px', objectFit: 'contain' }}
-                        alt=""
+                        alt={galleryImages[index].altText}
                     />
                 </div>
             ))}

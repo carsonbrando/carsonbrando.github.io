@@ -1,12 +1,13 @@
 .About {
     display: flex;
-    margin: 40px 80px;
+    margin: 40px 12vw;
     flex-direction: column-reverse;
+    justify-content: center;
 }
 
 .Headshot {
     flex: 1;
-    padding-right: 25vw;
+    /* padding-right: 25vw; */
     padding-bottom: 100px;
 }
 
@@ -18,7 +19,8 @@
 .Bio {
     flex: 3;
     text-align: left;
-    padding-right: 25vw;
+    /* padding-right: 25vw; */
+    color: var(--secondary-color);
     /* padding-bottom: 40px; */
 }
 
