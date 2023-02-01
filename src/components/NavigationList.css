@@ -1,0 +1,19 @@
+.NavigationList {
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+}
+
+.NavigationItem {
+    margin: 25px;
+    text-transform: lowercase;
+}
+
+.NavigationItem a:link, a:visited {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+  
+.NavigationItem a:active, a:hover {
+    color: var(--tertiary-color);
+}

@@ -1,0 +1,13 @@
+.BannerContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    height: auto;
+    max-height: 725px;
+}
+
+.Banner {
+    width: 100%;
+    object-fit: cover;
+}

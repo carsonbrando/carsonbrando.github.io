@@ -1,0 +1,24 @@
+.Footer {
+    display: flex;
+    background-color: var(--secondary-color);
+    /* box-shadow: 0 50vh 0 50vh antiquewhite; */
+    margin-top: 40px;
+    padding: 20px 0px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.FooterCopy {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.FooterSocial {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
